@@ -6,8 +6,8 @@ app.get("/", (req, res) => {
   res.send("Welcome to express");
 });
 
-const port = process.env.port || 8081;
+const port = process.env.port || 8080;
 
 app.listen(port, () => {
-  console.log("Listenning to port 8081");
+  console.log("Listenning to port 8080");
 });
